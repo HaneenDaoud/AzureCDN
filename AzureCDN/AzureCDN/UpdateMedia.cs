@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using Sitecore.CDN.AzurePublishing;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.Attach;
 using Sitecore.SecurityModel;
 
-namespace Sitecore.CDN.AzurePublishing
+namespace MediaLibrary.Azure.CDN
 {
   public  class UpdateMedia
     {

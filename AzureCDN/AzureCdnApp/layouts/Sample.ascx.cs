@@ -13,11 +13,6 @@ namespace AzureCdnApp.layouts
         protected void Page_Load(object sender, EventArgs e)
         {
           
-            Sitecore.Data.Fields.ImageField imageField = Sitecore.Context.Item.Fields["Image"];
-            test.Text = Sitecore.Resources.Media.MediaManager.GetMediaUrl(imageField.MediaItem);         
-            this.Image.FieldName = "Image";
-
-
         }
     }
 }

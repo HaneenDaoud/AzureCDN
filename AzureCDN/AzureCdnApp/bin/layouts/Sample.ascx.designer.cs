@@ -13,15 +13,6 @@ namespace AzureCdnApp.layouts {
     public partial class Sample {
         
         /// <summary>
-        /// test control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal test;
-        
-        /// <summary>
         /// Image control.
         /// </summary>
         /// <remarks>
@@ -29,14 +20,5 @@ namespace AzureCdnApp.layouts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Sitecore.Web.UI.WebControls.FieldRenderer Image;
-        
-        /// <summary>
-        /// FieldRenderer1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Sitecore.Web.UI.WebControls.Image FieldRenderer1;
     }
 }

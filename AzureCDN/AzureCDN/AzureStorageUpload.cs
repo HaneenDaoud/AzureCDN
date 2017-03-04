@@ -8,7 +8,7 @@ using Sitecore.SecurityModel;
 using Sitecore.Diagnostics;
 using Sitecore.Configuration;
 
-namespace Sitecore.CDN.AzurePublishing
+namespace MediaLibrary.Azure.CDN
 {
     public class AzureStorageUpload
     {
@@ -130,8 +130,8 @@ namespace Sitecore.CDN.AzurePublishing
         {
             string newFileName = Sitecore.MainUtil.EncodeName(mediaItem.Name);
 
-            if (!string.IsNullOrEmpty(AzureSyncPath)) return (AzureSyncPath + "\\" + mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName.Replace("-", "") + "-" + language + "." + extension).ToLower());
-            else return (mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName.Replace("-", "") + "-" + language + "." + extension).ToLower());
+            if (!string.IsNullOrEmpty(AzureSyncPath)) return (AzureSyncPath + "\\" + mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName.Replace(" ", "-") + "-" + language + "." + extension).ToLower().Replace(" ", "-"));
+            else return (mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName.Replace(" ", "-") + "-" + language + "." + extension).ToLower().Replace(" ", "-"));
         }
 
         public void SetCacheControl(CloudBlob blob, string value)

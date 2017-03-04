@@ -13,28 +13,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2017 16:55:17</publishTime>
     </File>
     <File Include="App_Config/Include/z.MediaLibrary.AzureCDN.config">
-      <publishTime>03/04/2017 17:05:19</publishTime>
+      <publishTime>03/04/2017 19:25:00</publishTime>
     </File>
     <File Include="bin/App_Config/Include/MediaLibrary.AzureCDN.config">
       <publishTime>03/04/2017 16:55:17</publishTime>
     </File>
     <File Include="bin/App_Config/Include/z.MediaLibrary.AzureCDN.config">
-      <publishTime>03/04/2017 17:05:19</publishTime>
+      <publishTime>03/04/2017 19:25:00</publishTime>
     </File>
     <File Include="bin/AzureCDN.dll">
-      <publishTime>03/04/2017 18:36:29</publishTime>
+      <publishTime>03/04/2017 19:51:58</publishTime>
     </File>
     <File Include="bin/AzureCdnApp.dll">
-      <publishTime>03/04/2017 18:36:32</publishTime>
+      <publishTime>03/04/2017 19:52:00</publishTime>
     </File>
     <File Include="bin/layouts/Sample.ascx">
-      <publishTime>03/04/2017 16:06:33</publishTime>
+      <publishTime>03/04/2017 19:27:46</publishTime>
     </File>
     <File Include="bin/layouts/Sample.ascx.cs">
-      <publishTime>03/04/2017 16:06:57</publishTime>
+      <publishTime>03/04/2017 19:27:55</publishTime>
     </File>
     <File Include="bin/layouts/Sample.ascx.designer.cs">
-      <publishTime>03/04/2017 16:06:33</publishTime>
+      <publishTime>03/04/2017 19:27:46</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -106,7 +106,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/21/2016 12:35:48</publishTime>
     </File>
     <File Include="layouts/Sample.ascx">
-      <publishTime>03/04/2017 16:06:33</publishTime>
+      <publishTime>03/04/2017 19:27:46</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 using Sitecore.Data.Items;
 using Sitecore.Pipelines;
 
-namespace Sitecore.CDN.AzurePublishing
+namespace MediaLibrary.Azure.CDN
 {
     class MediaProcessorArgs : PipelineArgs
     {

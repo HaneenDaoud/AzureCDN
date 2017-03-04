@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sitecore.CDN.AzurePublishing
+namespace MediaLibrary.Azure.CDN
 {
     class MediaProvider : Sitecore.Resources.Media.MediaProvider
     {
@@ -57,7 +57,7 @@ namespace Sitecore.CDN.AzurePublishing
                 if (mediaUrl.ToLower().Contains("-/media/"))
                 {
                     mediaUrl = OriginPrefix + mediaUrl.Substring(mediaUrl.LastIndexOf("-/media/") + 8, mediaUrl.Length - 8 - mediaUrl.LastIndexOf("-/media/")).ToLower();
-                    mediaUrl= mediaUrl.Replace((item.Name + "." + item.Extension).ToLower(), (item.Name.Replace("-", "") + "-" + Context.Language.Name   + "." + item.Extension).ToLower()).ToLower();
+                    mediaUrl= mediaUrl.Replace((item.Name + "." + item.Extension).ToLower(), (item.Name + "-" + Sitecore.Context.Language.Name   + "." + item.Extension).ToLower()).ToLower();
 
                 }
                 if (mediaUrl.ToLower().Contains("?"))

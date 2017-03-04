@@ -7,10 +7,8 @@ using Sitecore.Globalization;
 using Sitecore.Jobs;
 using Sitecore.Publishing;
 using Sitecore.Publishing.Pipelines.PublishItem;
-using Sitecore.Data;
-using Sitecore.Configuration;
 
-namespace Sitecore.CDN.AzurePublishing
+namespace MediaLibrary.Azure.CDN
 {
     class CdnPublish : PublishItemProcessor
     {
@@ -69,7 +67,7 @@ namespace Sitecore.CDN.AzurePublishing
                         //Parameters to upload/replace/delete from on Azure
                         object[] args = new object[] { mediaItem, mediaExtension, versionToPublish.Language.Name };
                         Sitecore.Jobs.JobOptions jobOptions = null;
-                        Context.Job.Status.State = JobState.Initializing;
+                        Sitecore.Context.Job.Status.State = JobState.Initializing;
                         if (context.Action == PublishAction.None)
                         {
 
@@ -84,13 +82,13 @@ namespace Sitecore.CDN.AzurePublishing
                                 AfterLife = TimeSpan.FromSeconds(5),  // keep job data for one hour
                                 EnableSecurity = false,             // run without a security context
                             };
-                            Context.Job.Status.State = JobState.Finished;
+                            Sitecore.Context.Job.Status.State = JobState.Finished;
                             Sitecore.Jobs.Job pub = Sitecore.Jobs.JobManager.Start(jobOptions);
                         }
                         if (context.Action == PublishAction.PublishSharedFields || context.Action == PublishAction.PublishVersion)
                         {
                             jobOptions = new Sitecore.Jobs.JobOptions(mediaItem.ID.ToString(), "CDN Upload", Sitecore.Context.Site.Name, azureStorageUpload, "replaceMediaFromAzure", args) { AfterLife = TimeSpan.FromSeconds(5), EnableSecurity = false, };
-                            Context.Job.Status.State = JobState.Finished;
+                            Sitecore.Context.Job.Status.State = JobState.Finished;
                             Sitecore.Jobs.Job pub = Sitecore.Jobs.JobManager.Start(jobOptions);
                         }
                         //If the publish action is delete target item, get all the language versions of the item and delete it from Azure
@@ -105,7 +103,7 @@ namespace Sitecore.CDN.AzurePublishing
                                     AfterLife = TimeSpan.FromSeconds(5),
                                     EnableSecurity = false,
                                 };
-                                Context.Job.Status.State = JobState.Finished;
+                                Sitecore.Context.Job.Status.State = JobState.Finished;
                                 Sitecore.Jobs.Job pub = Sitecore.Jobs.JobManager.Start(jobOptions);
                             }
                         }
