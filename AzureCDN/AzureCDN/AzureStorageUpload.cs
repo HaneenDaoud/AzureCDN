@@ -102,7 +102,6 @@ namespace Sitecore.CDN.AzurePublishing
                 Logger.Info(string.Format(" CDN File Deleted : {0}  ", item["CDN file path"].ToLower()));
             }
 
-            // CloudBlockBlob blockBlob = container.GetBlockBlobReference(mediaItem.MediaPath.TCDN File ReplacedrimStart('/').Replace(mediaItem.DisplayName, mediaItem.ID.ToString().Replace("{", "").Replace("}", "").Replace("-", "")) + "-" + language + "." + extension);
             CloudBlockBlob blockBlob = container.GetBlockBlobReference(GetMediaPath(mediaItem, extension, language));
            
            

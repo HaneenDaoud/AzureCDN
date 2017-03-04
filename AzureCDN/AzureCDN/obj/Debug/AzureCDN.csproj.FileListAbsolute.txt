@@ -6,3 +6,12 @@ C:\Work\AzureCDN\trunk\AzureCDN\AzureCDN\bin\Debug\Sitecore.Kernel.dll
 C:\Work\AzureCDN\trunk\AzureCDN\AzureCDN\bin\Debug\Sitecore.Logging.dll
 C:\Work\AzureCDN\trunk\AzureCDN\AzureCDN\obj\Debug\AzureCDN.dll
 C:\Work\AzureCDN\trunk\AzureCDN\AzureCDN\obj\Debug\AzureCDN.pdb
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\bin\Debug\AzureCDN.dll
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\bin\Debug\AzureCDN.pdb
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\bin\Debug\Sitecore.Client.dll
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\bin\Debug\Sitecore.Kernel.dll
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\bin\Debug\Sitecore.Logging.dll
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\obj\Debug\AzureCDN.csprojResolveAssemblyReference.cache
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\obj\Debug\AzureCDN.dll
+C:\Work\AzureCDN-Git\AzureCDN\AzureCDN\obj\Debug\AzureCDN.pdb

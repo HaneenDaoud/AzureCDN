@@ -3,4 +3,27 @@
   <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
   <Item ItemPath="/sitecore/templates/System" ItemIcon="/temp/IconCache/Applications/16x16/folder_gear.png" />
   <Item ItemPath="/sitecore/templates/System/Media" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File" ItemIcon="/temp/IconCache/Applications/32x32/Document_text.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File/__Standard Values" ItemIcon="/~/icon/Applications/32x32/Document_text.png.aspx" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File/Information" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File/Location" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File/Media" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File/Media/Blob" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File/Media/File Path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/File/Properties" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File" ItemIcon="/temp/IconCache/Applications/32x32/Document_text.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File/__Standard Values" ItemIcon="/~/icon/Applications/32x32/Document_text.png.aspx" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File/Information" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File/Location" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File/Media" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File/Media/Blob" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File/Media/File Path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Versioned/File/Properties" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Media library to Azure CDN" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Media library to Azure CDN/Azure CDN/Azure Extended Information" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Media library to Azure CDN/Azure CDN/Azure Extended Information/CDN file path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Media library to Azure CDN/Azure CDN/Azure Extended Information/Uploaded To Cloud CDN" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Media library to Azure CDN/Azure CDN" ItemIcon="/temp/iconcache/applications/16x16/star_blue.png" />
 </ItemIconCache>
