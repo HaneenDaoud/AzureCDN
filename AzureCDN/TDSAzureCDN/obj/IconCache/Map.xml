@@ -56,4 +56,8 @@
   <Item ItemPath="/sitecore/templates/Media library to Azure CDN/Azure CDN Sample/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
   <Item ItemPath="/sitecore/templates/Media library to Azure CDN/Azure CDN Sample/Data/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
   <Item ItemPath="/sitecore/templates/Media library to Azure CDN/Azure CDN Sample/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/star_green.png" />
+  <Item ItemPath="/sitecore/system" ItemIcon="/temp/IconCache/People/16x16/workstation1.png" />
+  <Item ItemPath="/sitecore/system/Languages" ItemIcon="/temp/IconCache/Office/16x16/flag_generic.png" />
+  <Item ItemPath="/sitecore/system/Languages/en" ItemIcon="/temp/IconCache/Office/32x32/flag_generic.png" />
+  <Item ItemPath="/sitecore/system/Languages/fr-FR" ItemIcon="/temp/iconcache/office/16x16/flag_generic.png" />
 </ItemIconCache>
