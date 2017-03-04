@@ -114,7 +114,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\z.MediaLibrary.AzureCDN.config" />
+    <None Include="App_Config\Include\z.MediaLibrary.AzureCDN.config.disabled" />
     <Content Include="layouts\Media library to Azure CDN\Sample Layout.aspx" />
     <None Include="Properties\PublishProfiles\AzureCDN.pubxml" />
   </ItemGroup>
