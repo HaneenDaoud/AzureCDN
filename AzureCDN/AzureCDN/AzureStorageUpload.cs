@@ -50,7 +50,7 @@ namespace Sitecore.CDN.AzurePublishing
         public void UploadMediaToAzure(MediaItem mediaItem, string extension = "", string language = "")
         {
 
-            CloudBlockBlob blockBlob = container.GetBlockBlobReference(GetMediaPath(mediaItem, extension));
+            CloudBlockBlob blockBlob = container.GetBlockBlobReference(GetMediaPath(mediaItem, extension,language));
             blockBlob.DeleteIfExists();
 
             if (string.IsNullOrEmpty(mediaItem.Extension))
@@ -73,19 +73,20 @@ namespace Sitecore.CDN.AzurePublishing
             Item item = mediaItem;
             using (new EditContext(item, SecurityCheck.Disable))
             {
-                item["CDN file path"] = GetMediaPath(mediaItem, extension);
+                item["CDN file path"] = GetMediaPath(mediaItem, extension, language);
                 item["Uploaded To Cloud CDN"] = "1";
             }
 
-            Logger.Info(string.Format("CDN File Uploaded : {0}", GetMediaPath(mediaItem, extension)));
+            Logger.Info(string.Format("CDN File Uploaded : {0}", GetMediaPath(mediaItem, extension, language)));
+
         }
 
         public void DeleteMediaFromAzure(MediaItem mediaItem, string extension = "", string language = "")
         {
-           CloudBlockBlob blockBlob = container.GetBlockBlobReference(GetMediaPath(mediaItem, extension));
+           CloudBlockBlob blockBlob = container.GetBlockBlobReference(GetMediaPath(mediaItem, extension, language));
             blockBlob.DeleteIfExists();
 
-            Logger.Info(string.Format(" CDN File Deleted : {0}", GetMediaPath(mediaItem, extension)));
+            Logger.Info(string.Format(" CDN File Deleted : {0}", GetMediaPath(mediaItem, extension, language)));
         }
 
         public void ReplaceMediaFromAzure(MediaItem mediaItem, string extension = "", string language = "")
@@ -102,8 +103,9 @@ namespace Sitecore.CDN.AzurePublishing
             }
 
             // CloudBlockBlob blockBlob = container.GetBlockBlobReference(mediaItem.MediaPath.TCDN File ReplacedrimStart('/').Replace(mediaItem.DisplayName, mediaItem.ID.ToString().Replace("{", "").Replace("}", "").Replace("-", "")) + "-" + language + "." + extension);
-            CloudBlockBlob blockBlob = container.GetBlockBlobReference(GetMediaPath(mediaItem, extension));
-
+            CloudBlockBlob blockBlob = container.GetBlockBlobReference(GetMediaPath(mediaItem, extension, language));
+           
+           
             if (string.IsNullOrEmpty(mediaItem.Extension))
                 return;
             using (var fileStream = (System.IO.FileStream)mediaItem.GetMediaStream())
@@ -116,22 +118,21 @@ namespace Sitecore.CDN.AzurePublishing
 
             using (new EditContext(item, SecurityCheck.Disable))
             {
-                item["CDN file path"] = GetMediaPath(mediaItem, extension);
+                item["CDN file path"] = GetMediaPath(mediaItem, extension, language);
                 item["Uploaded To Cloud CDN"] = "1";
 
             }
 
             // Sitecore.Diagnostics.Log.Info(string.Format(" CDN File Uploaded : {0} ", mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, mediaItem.DisplayName + "." + extension).ToLower()), this.ToString());
-            Logger.Info(string.Format("CDN File Uploaded : {0}", GetMediaPath(mediaItem, extension)));
+            Logger.Info(string.Format("CDN File Uploaded : {0}", GetMediaPath(mediaItem, extension, language)));
         }
 
-        public string GetMediaPath(MediaItem mediaItem, string extension = "")
+        public string GetMediaPath(MediaItem mediaItem, string extension = "", string language = "")
         {
             string newFileName = Sitecore.MainUtil.EncodeName(mediaItem.Name);
 
-            if (!string.IsNullOrEmpty (AzureSyncPath)) return (AzureSyncPath + "\\" + mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName + "." + extension).ToLower());
-            else return ( mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName + "." + extension).ToLower());
-
+            if (!string.IsNullOrEmpty(AzureSyncPath)) return (AzureSyncPath + "\\" + mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName.Replace("-", "") + "-" + language + "." + extension).ToLower());
+            else return (mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, newFileName.Replace("-", "") + "-" + language + "." + extension).ToLower());
         }
 
         public void SetCacheControl(CloudBlob blob, string value)

@@ -1,4 +1,5 @@
-﻿using Sitecore.Data.Items;
+﻿using Sitecore.Configuration;
+using Sitecore.Data.Items;
 using Sitecore.Events.Hooks;
 using Sitecore.Resources.Media;
 using System;
@@ -8,7 +9,7 @@ using System.Web;
 
 namespace Sitecore.CDN.AzurePublishing
 {
-    class MediaProvider : Sitecore.Resources.Media.MediaProvider, IHook
+    class MediaProvider : Sitecore.Resources.Media.MediaProvider
     {
         public void Initialize()
         {
@@ -27,33 +28,7 @@ namespace Sitecore.CDN.AzurePublishing
             return GetMediaUrl(mediaUrl, item);
         }
 
-      
-      
-        /// <summary>
-        /// Property defined in the config
-        /// </summary>
-        public string OriginPrefix { get; set; }
 
-        /// <summary>
-        /// Property defined in the config
-        /// </summary>
-        public string Sites { get; set; }
-
-        /// <summary>
-        /// Sites that are allows to use the CDN Media Provider
-        /// </summary>
-        public List<string> AllowedSites
-        {
-            get
-            {
-                if (string.IsNullOrEmpty(Sites))
-                {
-                    return new List<string>();
-                }
-
-                return Sites.Split('|').Where(x => !string.IsNullOrEmpty(x)).ToList();
-            }
-        }
 
         /// <summary>
         /// Sites that are allows to use the CDN Media Provider
@@ -72,6 +47,7 @@ namespace Sitecore.CDN.AzurePublishing
         /// <returns></returns>
         public string GetMediaUrl(string mediaUrl, MediaItem item)
         {
+            string OriginPrefix = Settings.GetSetting("OriginPrefix");
             if (Sitecore.Context.Database.Name != "core")
             {
                 if (string.IsNullOrEmpty(OriginPrefix))
@@ -81,6 +57,8 @@ namespace Sitecore.CDN.AzurePublishing
                 if (mediaUrl.ToLower().Contains("-/media/"))
                 {
                     mediaUrl = OriginPrefix + mediaUrl.Substring(mediaUrl.LastIndexOf("-/media/") + 8, mediaUrl.Length - 8 - mediaUrl.LastIndexOf("-/media/")).ToLower();
+                    mediaUrl= mediaUrl.Replace((item.Name + "." + item.Extension).ToLower(), (item.Name.Replace("-", "") + "-" + Context.Language.Name   + "." + item.Extension).ToLower()).ToLower();
+
                 }
                 if (mediaUrl.ToLower().Contains("?"))
                 {

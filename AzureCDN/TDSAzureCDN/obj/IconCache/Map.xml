@@ -2,4 +2,5 @@
 <ItemIconCache>
   <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
   <Item ItemPath="/sitecore/templates/System" ItemIcon="/temp/IconCache/Applications/16x16/folder_gear.png" />
+  <Item ItemPath="/sitecore/templates/System/Media" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
 </ItemIconCache>
