@@ -50,7 +50,6 @@ C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\roslyn\System.Reflection.Metadata.
 C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\roslyn\vbc.exe
 C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\roslyn\VBCSCompiler.exe
 C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\roslyn\VBCSCompiler.exe.config
-C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\App_Config\Include\z.MediaLibrary.AzureCDN.config
 C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\layouts\Sample.ascx
 C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\layouts\Sample.ascx.cs
 C:\Work\AzureCDN-Git\AzureCDN\AzureCdnApp\bin\layouts\Sample.ascx.designer.cs

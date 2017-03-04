@@ -1,0 +1,155 @@
+----item----
+version: 1
+id: {03598233-DF8F-4DAA-8595-489E35F51464}
+database: master
+path: /sitecore/content/Azure CDN Sample
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Azure CDN Sample
+master: {00000000-0000-0000-0000-000000000000}
+template: {F30DBCEB-961C-4350-BD21-ABA1F10B792D}
+templatekey: Azure CDN Sample
+created: 20170304T185132Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 453
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"><r uid="{43222D12-08C9-453B-AE96-D406EBB95126}"><p:d /></r><r uid="{A08C9132-DBD1-474F-A2CA-6CA26A4AA650}" s:ds="" s:id="{493B3A83-0FA7-4484-8FC9-4680991CF743}" s:par="" s:ph="content" /><r uid="{CF044AD9-0332-407A-ABDE-587214A2C808}"><p:d /></r><r uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}"><p:d /></r></d><d id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}"><p:d /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 3e6ccde5-4c6d-4ecb-af93-c83c40c7bf7f
+
+----field----
+field: {7FF2BB38-CDA7-48B0-A489-49A668DB13D1}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{3A5F7FBF-3A9A-447C-8D85-BD9D2D6E1DE0}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T185132Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e6ccde5-4c6d-4ecb-af93-c83c40c7bf7f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T191659Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: fr-FR
+version: 1
+revision: f8e30bb7-8e96-4411-bc7d-4b4e3cc6f401
+
+----field----
+field: {7FF2BB38-CDA7-48B0-A489-49A668DB13D1}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{3A5F7FBF-3A9A-447C-8D85-BD9D2D6E1DE0}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T185353Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f8e30bb7-8e96-4411-bc7d-4b4e3cc6f401
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T191709Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

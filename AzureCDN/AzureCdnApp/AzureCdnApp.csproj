@@ -98,14 +98,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="layouts\Sample.ascx.cs">
-      <DependentUpon>Sample.ascx</DependentUpon>
+    <Compile Include="layouts\Media library to Azure CDN\Sample Layout.aspx.cs">
+      <DependentUpon>Sample Layout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="layouts\Sample.ascx.designer.cs">
-      <DependentUpon>Sample.ascx</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Compile Include="layouts\Media library to Azure CDN\Sample Layout.aspx.designer.cs">
+      <DependentUpon>Sample Layout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -116,12 +114,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\z.MediaLibrary.AzureCDN.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="layouts\Sample.ascx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="App_Config\Include\z.MediaLibrary.AzureCDN.config" />
+    <Content Include="layouts\Media library to Azure CDN\Sample Layout.aspx" />
     <None Include="Properties\PublishProfiles\AzureCDN.pubxml" />
   </ItemGroup>
   <PropertyGroup>

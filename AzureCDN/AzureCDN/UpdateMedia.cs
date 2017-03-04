@@ -34,7 +34,7 @@ namespace MediaLibrary.Azure.CDN
                 {
                     using (new EditContext(file, SecurityCheck.Disable))
                     {
-                        file["UploadedToCDN"] = string.Empty;
+                        file["Uploaded To Cloud CDN"] = string.Empty;
 
                     }
                 }

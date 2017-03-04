@@ -98,7 +98,6 @@ namespace MediaLibrary.Azure.CDN
             {
                 CloudBlockBlob oldblockBlob = container.GetBlockBlobReference(item["CDN file path"]);
                 oldblockBlob.DeleteIfExists();
-                //Sitecore.Diagnostics.Log.Info(string.Format(" CDN File Deleted : {0}  ", mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, mediaItem.DisplayName + "." + extension).ToLower()), this.ToString());
                 Logger.Info(string.Format(" CDN File Deleted : {0}  ", item["CDN file path"].ToLower()));
             }
 
@@ -121,8 +120,7 @@ namespace MediaLibrary.Azure.CDN
                 item["Uploaded To Cloud CDN"] = "1";
 
             }
-
-            // Sitecore.Diagnostics.Log.Info(string.Format(" CDN File Uploaded : {0} ", mediaItem.MediaPath.TrimStart('/').Replace(mediaItem.DisplayName, mediaItem.DisplayName + "." + extension).ToLower()), this.ToString());
+            
             Logger.Info(string.Format("CDN File Uploaded : {0}", GetMediaPath(mediaItem, extension, language)));
         }
 

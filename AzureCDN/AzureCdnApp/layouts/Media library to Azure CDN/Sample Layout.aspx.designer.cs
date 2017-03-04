@@ -10,7 +10,16 @@
 namespace AzureCdnApp.layouts {
     
     
-    public partial class Sample {
+    public partial class AzureCdnSample {
+        
+        /// <summary>
+        /// mainform control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm mainform;
         
         /// <summary>
         /// Image control.
@@ -19,6 +28,6 @@ namespace AzureCdnApp.layouts {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Sitecore.Web.UI.WebControls.FieldRenderer Image;
+        protected global::Sitecore.Web.UI.WebControls.Image Image;
     }
 }
