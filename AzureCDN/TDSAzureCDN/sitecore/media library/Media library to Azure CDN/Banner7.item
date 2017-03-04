@@ -20,22 +20,22 @@ content-length: 61
 ----version----
 language: en
 version: 1
-revision: 296f8455-ea82-4c54-8d0f-8e0b560dda9b
+revision: f63f0e34-6f55-41e1-837d-1bccf89e0276
 
 ----field----
 field: {ACBDD5DB-C788-44B6-962A-84B0D603C2BE}
 name: Uploaded To Cloud CDN
 key: uploaded to cloud cdn
-content-length: 1
+content-length: 0
 
-1
+
 ----field----
 field: {272E4F6C-7D0B-42B3-8637-8846A107C6F3}
 name: CDN file path
 key: cdn file path
-content-length: 46
+content-length: 0
 
-sync\media-library-to-azure-cdn/banner7-en.jpg
+
 ----field----
 field: {DBBE7D99-1388-4357-BB34-AD71EDF18ED3}
 name: Blob
@@ -1051,14 +1051,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-296f8455-ea82-4c54-8d0f-8e0b560dda9b
+f63f0e34-6f55-41e1-837d-1bccf89e0276
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T191722Z
+20170304T220311Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -1069,22 +1069,22 @@ sitecore\Admin
 ----version----
 language: fr-FR
 version: 1
-revision: b5593642-ec7d-4a1d-b8fa-dac49ba3f112
+revision: d94b2612-68de-449a-8679-e8bfeeef4aed
 
 ----field----
 field: {ACBDD5DB-C788-44B6-962A-84B0D603C2BE}
 name: Uploaded To Cloud CDN
 key: uploaded to cloud cdn
-content-length: 1
+content-length: 0
 
-1
+
 ----field----
 field: {272E4F6C-7D0B-42B3-8637-8846A107C6F3}
 name: CDN file path
 key: cdn file path
-content-length: 49
+content-length: 0
 
-sync\media-library-to-azure-cdn/banner7-fr-fr.jpg
+
 ----field----
 field: {DBBE7D99-1388-4357-BB34-AD71EDF18ED3}
 name: Blob
@@ -2100,14 +2100,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b5593642-ec7d-4a1d-b8fa-dac49ba3f112
+d94b2612-68de-449a-8679-e8bfeeef4aed
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T191722Z
+20170304T220319Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

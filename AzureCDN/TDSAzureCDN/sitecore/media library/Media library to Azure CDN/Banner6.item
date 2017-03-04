@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {D08E96C7-0AEF-412B-983D-6F542631B8D5}
+id: {9B535000-3EA7-4455-A126-033C40AFE5D2}
 database: master
 path: /sitecore/media library/Media library to Azure CDN/Banner6
 parent: {BF084B93-E6EB-4EA4-AE5A-4D0C76AEF9A4}
@@ -8,7 +8,7 @@ name: Banner6
 master: {00000000-0000-0000-0000-000000000000}
 template: {EB3FB96C-D56B-4AC9-97F8-F07B24BB9BF7}
 templatekey: Jpeg
-created: 20170304T191458Z
+created: 20170304T193656Z
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -16,26 +16,26 @@ name: __Icon
 key: __icon
 content-length: 61
 
--/media/D08E96C70AEF412B983D6F542631B8D5.ashx?h=16&thn=1&w=16
+-/media/9B5350003EA74455A126033C40AFE5D2.ashx?h=16&thn=1&w=16
 ----version----
 language: en
 version: 1
-revision: da409464-88a8-430a-8ace-0586efabf360
+revision: 7a0caae3-b072-4153-a4f0-bbccc90a03ac
 
 ----field----
 field: {ACBDD5DB-C788-44B6-962A-84B0D603C2BE}
 name: Uploaded To Cloud CDN
 key: uploaded to cloud cdn
-content-length: 1
+content-length: 0
 
-1
+
 ----field----
 field: {272E4F6C-7D0B-42B3-8637-8846A107C6F3}
 name: CDN file path
 key: cdn file path
-content-length: 46
+content-length: 0
 
-sync\media-library-to-azure-cdn/banner6-en.jpg
+
 ----field----
 field: {DBBE7D99-1388-4357-BB34-AD71EDF18ED3}
 name: Blob
@@ -1274,7 +1274,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170304T191458Z
+20170304T193656Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -1288,14 +1288,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-da409464-88a8-430a-8ace-0586efabf360
+7a0caae3-b072-4153-a4f0-bbccc90a03ac
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T191722Z
+20170304T220305Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

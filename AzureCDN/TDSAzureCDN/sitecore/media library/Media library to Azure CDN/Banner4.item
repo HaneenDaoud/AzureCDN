@@ -20,22 +20,22 @@ content-length: 61
 ----version----
 language: en
 version: 1
-revision: ebb7c1d9-f627-4054-bc84-b38869b7984c
+revision: 1a207159-8ec3-4136-9e40-af4a03617830
 
 ----field----
 field: {ACBDD5DB-C788-44B6-962A-84B0D603C2BE}
 name: Uploaded To Cloud CDN
 key: uploaded to cloud cdn
-content-length: 1
+content-length: 0
 
-1
+
 ----field----
 field: {272E4F6C-7D0B-42B3-8637-8846A107C6F3}
 name: CDN file path
 key: cdn file path
-content-length: 46
+content-length: 0
 
-sync\media-library-to-azure-cdn/banner4-en.jpg
+
 ----field----
 field: {DBBE7D99-1388-4357-BB34-AD71EDF18ED3}
 name: Blob
@@ -1881,14 +1881,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ebb7c1d9-f627-4054-bc84-b38869b7984c
+1a207159-8ec3-4136-9e40-af4a03617830
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T191721Z
+20170304T220252Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
