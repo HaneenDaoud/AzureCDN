@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {BB0432A0-EDAB-4F63-8A81-CDF09F48F1D8}
+database: master
+path: /sitecore/templates/System/Media/Versioned/File/__Standard Values
+parent: {611933AC-CE0C-4DDC-9683-F830232DB150}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {611933AC-CE0C-4DDC-9683-F830232DB150}
+templatekey: File
+created: 20161221T101114Z
+
+----field----
+field: {C0E276BB-8807-40AA-8138-E5C38B0C5DAB}
+name: __Quick Actions
+key: __quick actions
+content-length: 116
+
+{3799B830-7D8B-4FED-99D8-5D5EF6607D0E}|{983E7347-8010-4374-9771-6193ABE44F6C}|{8CAFF9B4-A2CF-4BAD-9C90-605A38226623}
+----field----
+field: {B7E5B151-B145-4CED-85C5-FBDB566DFA4D}
+name: __Validator Bar Validation Rules
+key: __validator bar validation rules
+content-length: 38
+
+{9088ACFD-9F36-4E89-9663-12D4286FFBAF}
+----version----
+language: en
+version: 1
+revision: 3f1f25cd-3c75-43e9-a21a-6418fec45a23
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071108T135700
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f1f25cd-3c75-43e9-a21a-6418fec45a23
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120920T163108:634837554688200434
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
